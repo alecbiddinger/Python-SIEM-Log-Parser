@@ -10,7 +10,7 @@ failed_logins = defaultdict(int)
 alerts = []
 
 failed_pattern = r"Failed password .* from (\d+\.\d+\.\d+\.\d+)"
-success_pattern = r"Accepted password.*for (\w+) from (\d+\.\d+\.\d+\.\d+)"
+success_pattern = r"Accepted password.* for (\S+) from (\d+\.\d+\.\d+\.\d+)"
 
 with open(LOG_FILE, "r") as file:
     for line in file:
