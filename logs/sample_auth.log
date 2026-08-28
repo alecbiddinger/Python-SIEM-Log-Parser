@@ -1,0 +1,8 @@
+May 11 20:14:01 server sshd[101]: Failed password for invalid user admin from 192.168.1.50 port 4455 ssh2
+May 11 20:14:05 server sshd[102]: Failed password for root from 192.168.1.50 port 4456 ssh2
+May 11 20:14:10 server sshd[103]: Failed password for user test from 192.168.1.50 port 4457 ssh2
+May 11 20:15:22 server sshd[104]: Accepted password for alec from 192.168.1.25 port 5222 ssh2
+May 11 20:16:01 server sshd[105]: Failed password for invalid user guest from 10.0.0.9 port 3333 ssh2
+May 11 20:16:10 server sshd[106]: Failed password for invalid user oracle from 10.0.0.9 port 3334 ssh2
+May 11 20:16:18 server sshd[107]: Failed password for invalid user admin from 10.0.0.9 port 3335 ssh2
+May 11 20:16:25 server sshd[108]: Failed password for invalid user test from 10.0.0.9 port 3336 ssh2
