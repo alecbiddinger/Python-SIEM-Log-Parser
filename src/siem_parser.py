@@ -3,7 +3,7 @@ from collections import defaultdict
 from pathlib import Path
 
 LOG_FILE = Path(__file__).parent.parent / "logs" / "sample_auth.log"
-ALERT_FILE = "alerts.txt"
+ALERT_FILE = Path(__file__).parent.parent / "output" / "alerts.txt"
 
 FAILED_LOGIN_THRESHOLD = 3
 
@@ -14,7 +14,6 @@ failed_pattern = r"Failed password .* from (\d+\.\d+\.\d+\.\d+)"
 success_pattern = r"Accepted password.* for (\S+) from (\d+\.\d+\.\d+\.\d+)"
 
 with open(LOG_FILE, "r") as file:
-    logs = file.readlines()
     for line in file:
         failed_match = re.search(failed_pattern, line)
         success_match = re.search(success_pattern, line)
