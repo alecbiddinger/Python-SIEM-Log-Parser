@@ -1,7 +1,7 @@
 # Python SIEM Log Parser
 
 ## Overview
-This project is a basic Python-based SIEM log parser that analyzes authentication logs for suspcious login activity based on the data in the file "auth.log."
+This project is a basic Python-based SIEM log parser that analyzes authentication logs for suspicious login activity using data from the file "auth.log."
 
 ## Features
 - Parses Linux-style authentication logs
