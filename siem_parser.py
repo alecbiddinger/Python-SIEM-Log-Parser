@@ -1,7 +1,7 @@
 import re
 from collections import defaultdict
 
-LOG_FILE = "logs/auth.log"
+LOG_FILE = "auth.log"
 ALERT_FILE = "alerts.txt"
 
 FAILED_LOGIN_THRESHOLD = 3
